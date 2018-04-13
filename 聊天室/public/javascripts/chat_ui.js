@@ -1,5 +1,5 @@
 // chat_ui.js
-var socket = io.connect();  // 客户端连接到服务器
+var socket = io.connect();  // 客户端连接到服务器 var socket = io.connect('http://localhost');的简写
 $(document).ready(function() {
   var chatApp = new Chat(socket);
 
